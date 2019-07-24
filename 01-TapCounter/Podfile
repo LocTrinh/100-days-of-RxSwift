@@ -1,20 +1,14 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, '8.0'
-# Uncomment this line if you're using Swift
-use_frameworks!
+project 'RxCounter.xcodeproj'
 
-target 'TapCounter' do
-  pod 'RxSwift',    '~> 3.5.0'
-  pod 'RxCocoa',    '~> 3.5.0'
-  pod 'RxBlocking', '~> 3.5.0'
-#  pod 'RxTests',    '~> 2.0'
-end
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
 
-target 'TapCounterTests' do
-
-end
-
-target 'TapCounterUITests' do
+target 'RxCounter' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'RxSwift' 
+  pod 'RxCocoa'   
+  pod 'RxBlocking'
+  # Pods for RxCounter
 
 end
-
